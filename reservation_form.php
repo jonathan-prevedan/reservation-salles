@@ -5,7 +5,6 @@ $error = "";
     include('configurations/config.php');
     include('configurations/fonctions.php');
 	$db = $_SESSION['db'];
-	var_dump($db);
 	if(isset($_SESSION('username')))
 	{
 	if(isset($_POST['go']))
