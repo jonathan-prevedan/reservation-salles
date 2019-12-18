@@ -346,3 +346,79 @@ main#register_content form a
     text-decoration: none;
     color: white;
 }
+
+
+nav #liens a
+{
+    margin: 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-property: color initial;
+    transition-duration: 700ms;
+}
+nav #liens a:hover
+{
+    color: rgb(97, 58, 189);
+}
+
+
+#main_profil
+{
+    margin-left: 10%;
+    height: 100%;
+    width: 80%;
+    background-image: url('ressources/images/backgrounds/background.jpg');
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#main_profil section
+{
+    height: 35%;
+    width: 28%;
+    margin-left: 33%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 2px solid rgb(22, 7, 56);
+    background-color: #333;
+}
+#main_profil section form
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#main_profil section form h1
+{
+    text-align: center;
+}
+#main_profil section form input
+{
+    width: 68%;
+    background-color: rgb(31, 31, 31);
+    border: 2px solid rgb(97, 58, 189);
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 1%;
+    text-align: center;
+    color: snow;
+    outline: none;
+    transition-property: border;
+    transition-duration: 300ms;
+}
+#main_profil section form input[type="submit"]
+{
+    width: 30%;
+    outline: none;
+    cursor: pointer;
+}

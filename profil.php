@@ -17,23 +17,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="ressources/images/icons/logo.png">
+    <link rel="stylesheet" href="reservation-salles.css">
+    <link rel="icon" href="images/logo.png">
     <title><?php echo $login ?> | La cabane à pizza</title>
 </head>
 <body>
-    <nav>
-        <div id="user">
-            <img src="images/.jpg">
-            <?php if(isset($login)){echo "<a style=\"text-decoration: none;\"href=\"profil.php\"><h2>$login</h2></a>";} ?>
-        </div>
-        <div id="liens">
-            <a href="index.php">Accueil</a>
-            <a href="reservation.php">Voir Planning</a>
-            <a href="commentaire.php">Reserver une salle</a>
-            <?php if(isset($login)){echo "<a href=\"index.php?dc\" style=\"color: red;\">Se déconnecter</a>";}else{ echo "<a href=\"login.php\">Inscription/Connexion</a>";} ?>
-        </div>
-    </nav>
+  
     <main id="main_profil">
         <section>
             <form action="profil.php" method="post">
