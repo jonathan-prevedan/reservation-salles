@@ -92,18 +92,20 @@ else
     <link rel="icon" href="images/logo.png">
     <title><?php echo $login ?> | La cabane à pizza</title>
 </head>
-<body>
+<body id=register_body>
   
-    <main id="main_profil">
-        <section>
+    <main id="register_content">
+		<img src="images/piz.png" alt="logo du site"><br/>
+        
 <form action="" method="POST">
-<label>Titre :</label>
-		<input type="text" name="titre">
-<label>Description :</label>
-	<input type="text" name="description">
-<label>Date de début :</label>
-		<input type="datetime-local" name="debut">
-<label>Date de fin :</label>
+
+	<input type="text" name="titre" placeholder="Titre"><br/>
+	<input type="text" name="description" placeholder="Description"><br/>
+	<input type="datetime-local" name="debut"><br/>
 	<input type="datetime-local" name="fin"><br/>
-<input type="submit" name="go" value="Réservez !">
-</form>
+	<input type="submit" name="go" value="Réservez !">
+</form>	
+
+    </main>
+</body>
+</html>
