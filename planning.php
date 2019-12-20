@@ -14,7 +14,9 @@ $resultat = mysqli_fetch_all($query);
     <title>Reservation Salles - Planning</title>
     <link rel="stylesheet" type="text/css" href="reservation-salles.css">
 </head>
-
+<?php
+              include('header.php');
+            ?>
 <body>
     <main>
         <section id="ctableau">
